@@ -54,9 +54,9 @@ img {
     "H1 H2"
     "P1 P2";
     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: max-content;
     gap: 10px;
-    margin: 1px;
+    margin: 10px;
 }
 #head1 {
     grid-area: H1;
