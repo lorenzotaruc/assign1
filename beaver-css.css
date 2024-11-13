@@ -53,7 +53,7 @@ img {
     grid-template-areas: 
     "H1 H2"
     "P1 P2";
-    grid-template-columns: repeat(minmax(200px, auto), 1fr);
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
     grid-auto-rows: minmax(100px, auto);
     gap: 10px;
     margin: 1px;
