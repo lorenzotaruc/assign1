@@ -92,6 +92,14 @@ td, th {
     width: 250px;
     height: auto;
 }
+header {
+    position:sticky;
+    top: 0;
+    background-color: lightskyblue;
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 1em;
+}
 @media screen and (max-width: 800px) {
     .flex-nav {
         flex-direction: column;
