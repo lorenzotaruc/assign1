@@ -9,12 +9,14 @@ body {
     margin: 0 auto;
 }
 #col-container p {
-    background-color: lightpink;
-    border: 2px solid red;
+    background-color: lightcyan;
+    border: 2px solid darkcyan;
     padding: 10px;
     break-inside: avoid;
+    border-radius: 1em;
 }
-p {
+header p {
     background-color: lightgoldenrodyellow;
-    border: 2px solid goldenrod;
+    border: 2px solid darkgoldenrod;
+    border-radius: 1em;
 }

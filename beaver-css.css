@@ -4,7 +4,7 @@
     align-items: center;
     background-color: lightblue;
     padding: 3px;
-    margin-bottom: 1em;
+    margin-bottom: 1px;
     border: 2px solid blue;
     border-radius: 1em;
 }
@@ -106,12 +106,13 @@ header h2 {
 header h4 {
     margin: 1px;
 }
+
 @media screen and (max-width: 800px) {
     .flex-nav {
-        flex-direction: column;
         padding: 1px;
         margin-bottom: 1px;
     }
+        
     .flex-item {
         margin: 1px;
         padding: 1px;
