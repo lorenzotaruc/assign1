@@ -20,3 +20,8 @@ header p {
     border: 2px solid darkgoldenrod;
     border-radius: 1em;
 }
+@media screen and (max-width: 800px) {
+    #col-container {
+        column-width: 125px;
+    }
+}
