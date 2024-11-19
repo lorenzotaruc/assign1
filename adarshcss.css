@@ -3,6 +3,8 @@ nav {
     background-color: lightblue;
     justify-content: space-around;
     align-items: center;
+    border: 2px solid blue;
+    border-radius: 1em;
 }
 
 nav ul {
