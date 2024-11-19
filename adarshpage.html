@@ -4,61 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adarsh Pedia</title>
-    <link rel="stylesheet" href="./10-02-2024.css"></link>
+    <link rel="stylesheet" href="./adarshcss.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            
-            <img src="./images/Wikipedia_Logo_1.0.png" alt="logo" style="width: 80px;">
-            <h1>Adarsh pedia</h1>
-        </div>
-        <div class="search-box">
-            <input type="text" placeholder="🔎 search Adarsh pedia...">
-            <button type="button">search</button>
-        </div>
-        <div class="user-links">
-            <a href="#">Create Account</a>
-            <a href="#">Login</a>
-        </div>
-    <main class="main-content">
-            <aside class="left-sidebar">
-                <div class="accordion">
-                    <details class="accordion-item">
-                        <summary class="accordion-item-summary">Content</summary>
-                        <div class="accordion-item-content">
-                            <ul>
-                                <li><a href="#What">What</a></li>
-                                <li><a href="#Where">Where</a></li>
-                                <li><a href="#Science">Science</a></li>
-                                <li><a href="#Cultural">Cultural</a></li>
-                            </ul>
-                        </div>
-                    </details>
-                    <details class="accordion-item">
-                        <summary class="accordion-item-summary">Image</summary>
-                        <div class="accordion-item-content">
-                            <ul>
-                                <li><a href="#image"></a></li>
-                                
-                            </ul>
-                        </div>
-                    </details>
-                </div>
-            </aside>
-       
-        <nav>
-            <a href=""></a>
-        </nav>
-    </header>
-    <h1>Aurora</h1>
-    <section id="image">
-        <img src="./images/aurora.jpg" style="display: block; margin: auto; width: 500px;" alt="Northern Lights Image">
-                            
-    </section>
-    <section id="What">
-        <h2>What are the Northern Lights?</h2>
-        <p>The Northern Lights, also known as Aurora Borealis, are natural light displays in the Earth's sky, primarily seen in 
+    <nav> 
+        <header>
+            <h1>Adarsh Pedia</h1>
+        </header>
+        <ul>
+            <li><a href="#What">Where</a></li>
+            <li><a href="#Where"></a></li>
+            <li><a href="#Science">Science</a></li>
+            <li><a href="#Cultural">Culture</a></li>
+        </ul>
+    </nav>
+   
+    <div id="container">
+
+        <section id="What">
+            <header>
+                <h2>What are the Northern Lights?</h2>
+            </header>
+            <p><img src="./images/aurora.jpg" height="200" alt="Northern Lights Image">The Northern Lights, also known as Aurora Borealis, are natural light displays in the Earth's sky, primarily seen in 
             high-latitude regions around the Arctic.
             A northern lights (aurora borealis) or southern lights (aurora australis),[c] is a natural light display in Earth's sky, 
             predominantly seen in high-latitude regions (around the Arctic and Antarctic). Auroras display dynamic patterns of brilliant
@@ -72,10 +39,14 @@
              dependent on the amount of acceleration imparted to the precipitating particles.
             
             Most of the planets in the Solar System, some natural satellites, brown dwarfs, and even comets also host auroras.</p>
-    </section>    
-    <section id="Where">
-        <h2>Where and When Can You See Them?</h2>
-        <p>The Northern Lights are commonly visible in regions such as Canada, Norway, Sweden, and Finland, particularly between September and March.
+        </section>
+    </div>
+    <div id="grid">
+        <section id="Where">
+           <header>
+             <h2>Where and When Can You See Them?</h2>
+           </header>  
+           <p>The Northern Lights are commonly visible in regions such as Canada, Norway, Sweden, and Finland, particularly between September and March.
             Auroras are most commonly observed in the "auroral zone",[8] a band approximately 6° (~660 km) wide in latitude centered on 67° north and 
             south.[9] The region that currently displays an aurora is called the "auroral oval". The oval is displaced by the solar wind, pushing it
             about 15° away from the geomagnetic pole (not the geographic pole) in the noon direction and 23° away in the midnight direction.[9] The 
@@ -110,15 +81,19 @@
             effects occur such as pulsating aurora, "black aurora" and their rarer companion "anti-black aurora" and subvisual red arcs.
             In addition to all these, a weak glow (often deep red) observed around the two polar cusps, the field lines separating the 
             ones that close through Earth from those that are swept into the tail and close remotely.
-        </p>
-    </section>
+            </p>
+        </section>
+    </div>    
     <section id="Science">
-        <h2>The Science Behind the Northern Lights</h2>
+        <header>
+            <h2>The Science Behind the Northern Lights</h2>
+        </header>
         <p>The Northern Lights occur when charged particles from the sun interact with the Earth's magnetic field, causing a stunning display of colors.
             A full understanding of the physical processes which lead to different types of auroras is still incomplete, but the basic cause involves 
             the interaction of the solar wind with Earth's magnetosphere. The varying intensity of the solar wind produces effects of different 
             magnitudes but includes one or more of the following physical scenarios.
-
+        </p>
+        <p>
             A quiescent solar wind flowing past Earth's magnetosphere steadily interacts with it and can both inject solar wind particles directly 
             onto the geomagnetic field lines that are 'open', as opposed to being 'closed' in the opposite hemisphere and provide diffusion through 
             the bow shock. It can also cause particles already trapped in the radiation belts to precipitate into the atmosphere. Once particles are 
@@ -139,7 +114,8 @@
             A geomagnetic storm resulting from greater interaction adds many more particles to the plasma trapped around Earth, also producing 
             enhancement of the "ring current". Occasionally the resulting modification of Earth's magnetic field can be so strong that it produces 
             auroras visible at middle latitudes, on field lines much closer to the equator than those of the auroral zone.
-
+        </p>
+        <p>
             Moon and aurora
             Acceleration of auroral charged particles invariably accompanies a magnetospheric disturbance that causes an aurora. This mechanism, 
             which is believed to predominantly arise from strong electric fields along the magnetic field or wave-particle interactions, raises 
@@ -156,7 +132,9 @@
         </p>
     </section>
     <section id="Cultural">
+        <header class = "header">
         <h2>Cultural Significance of Northern Lights</h2>
+        </header>
         <p>In many cultures, the Northern Lights have been regarded as spiritual or mystical phenomena, with various myths and stories associated 
             with them.
             The earliest datable record of an aurora was recorded in the Bamboo Annals, a historical chronicle of the history of ancient China, 
@@ -248,7 +226,7 @@
             some believing they are caused by dead warriors' blood spraying on the sky as they engage in playing games, riding horses or having fun in some other way.
         </p>
     </section>
-</main>
+
 <footer>
     <div class="footer-content">
         <p>&copy; 2024 Adarsh Pedia. All rights reserved.</p>
